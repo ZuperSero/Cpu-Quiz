@@ -4,26 +4,44 @@
     <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <title>Get Quizzin!</title>
+    <script>
+        function goTo(bar) {
+            var query;
+            switch (bar) {
+                case "farfar":
+                    query = bar;
+
+                case "sjus":
+                    query = bar;
+
+                case "skaal":
+                    query = bar;
+
+            }
+            alert(query);
+            window.location.href = "/quizpro/main.php?bar="+bar;
+        }
+    </script>
+
+
+
+
+
 </head>
 <body>
-
-    <label>Copenhagen Quizes!</label>
-    <div class="info">
+<div class="container">
+    <h1 class="title">Cph Quizes!</h1>
+    <div class="textcontainer">
         <p>Here you can chose the bar you want to quiz at. It's real easy, just click the bar you are interested in and sign up.</p>
     </div>
-
-    <label>Choose a bar!</label>
-
-    <div class="logos">
-        <img src="https://d3ulizuhtuf022.cloudfront.net/images/270/7ad9632a339740a7a3795f3df67c4a40.png" class="barimage" name="farfar">
+    <div class="imagecontainer">
+        <input type="image" src="https://d3ulizuhtuf022.cloudfront.net/images/270/7ad9632a339740a7a3795f3df67c4a40.png" id="farfar" onclick="goTo(this.id)">
+        <input type="image" src="https://partybeep.com//logos/2017/1485450400dp791d-sjus-bar.png" id="sjus" onclick="goTo(this.id)">
+        <input type="image" src="http://www.skaal.dk/media/skaal-logo-1-2.svg" id="skaal" onclick="goTo(this.id)">
     </div>
-
-    <div class="logos">
-            <img src="https://partybeep.com//logos/2017/1485450400dp791d-sjus-bar.png" class="barimage" name="sjus">
-    </div>
-
-
-
-
+</div>
+<div class="disclaimer">
+    <p>This is a test site, early early beta. by Zz</p>
+</div>
 </body>
 </html>

@@ -1,20 +1,45 @@
 body{
-    background-color: red;
-}
-label{
-    font-family: Arial;
-    font-size: 60px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #4384f7;
 }
 
-.info{
+.container{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    font: 64px Arial, Helvetica, sans-serif;
+    color: #fabb0e;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 1px 1px 0px #383838, 1px 1px 0px #383838;
+}
+
+.textcontainer{
+    font: 24px Arial, sans-serif;
+    background-color: white;
+    border: 2px #386ed0 solid;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.imagecontainer{
     text-align: center;
 }
-.logos{
-    float: left;
-    padding: 10px;
-    margin: auto;
+.imagecontainer img{
+    margin: 0 50px 0 50px;
+}
+
+
+
+
+.disclaimer{
+    background-color: #585858;
+}
+
+.disclaimer p {
+    margin-left: 20%;
 }
