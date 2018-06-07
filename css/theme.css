@@ -1,0 +1,126 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    body {
+        font-size: 90%;
+    }
+}
+/* Desktops and laptops ———– */
+@media only screen
+and (min-width : 1224px) {
+    body {
+        background-color: #0705ff;
+    }
+    .imgcontainer{
+        text-align: center;
+
+    }
+    button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        padding: 14px 20px;
+    }
+    input[type=text]{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border:1.5px solid #585858;
+        outline: none;
+        padding: 8px;
+        box-sizing: border-box;
+        transition:.3s;
+
+    }
+    input[type=text]:focus{
+        border-color: dodgerblue;
+        box-shadow: 0 0 8px 0 dodgerblue;
+    }
+    label{
+        margin-bottom: -14px;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+
+}
+
+
+
+/* Large screens ———– */
+@media only screen
+and (min-width : 1824px) {
+    body{
+        background-color: #0c00ff;
+    }
+}
+
+/* Smartphones (portrait and landscape) ———– */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    /* Styles */
+    body{
+        background-color: red;
+    }
+}
+
+/* Smartphones (landscape) ———– */
+@media only screen
+and (min-width : 321px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* Smartphones (portrait) ———– */
+@media only screen
+and (max-width : 320px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* iPads (portrait and landscape) ———– */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* iPads (landscape) ———– */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    body{
+        background-color: red;
+    }
+}
+
+/* iPads (portrait) ———– */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    body{
+        background-color: red;
+    }
+}
+
+/* iPhone 4 ———– */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    body{
+        background-color: red;
+    }
+}
